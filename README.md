@@ -1,5 +1,5 @@
 ## Predicting Solar Flares Using a Long Short-term Memory Network
-[![DOI](https://github.com/ccsc-tools/zenodo_icons/blob/main/icons/zenodo.5643647.svg)](https://doi.org/10.5281/zenodo.5651064)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5651065.svg)](https://doi.org/10.5281/zenodo.5651065)
 
 ## Authors
 
