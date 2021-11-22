@@ -1,5 +1,5 @@
 ## Predicting Solar Flares Using a Long Short-term Memory Network
-[![DOI](https://raw.githubusercontent.com/Prism2/LSTM-flare-prediction/480f4fea425766eb0ef5c06421f3e6ec0fa53dc4/zenodo.svg)](https://doi.org/10.5281/zenodo.5717572)
+[![DOI](https://raw.githubusercontent.com/Prism2/LSTM-flare-prediction/master/zenodo.svg)](https://doi.org/10.5281/zenodo.5717572)
 
 ## Authors
 
