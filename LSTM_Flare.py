@@ -23,7 +23,9 @@ from keras.layers import *
 import csv
 import numpy as np
 import os
+import warnings
 
+warnings.filterwarnings("ignore")
 
 class LSTM_Flare:
     def __init__(self):
