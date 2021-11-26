@@ -15,7 +15,7 @@ This notebook is Binder enabled and can be run on [mybinder.org](https://mybinde
 
 
 ### run_SolarUnet.ipynb (Jupyter Notebook for SolarUnet)
-[![Binder](https://mybinder.org/badge_logo.svg)]( https://mybinder.org/v2/gh/Prism2/LSTM-flare-prediction/HEAD?labpath=RunMe.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)]( https://mybinder.org/v2/gh/Prism2/LSTM-flare-prediction/HEAD?labpath=ccsc_FlarePredict.ipynb)
 
 Please note that starting Binder might take some time to create and start the image.
 

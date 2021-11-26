@@ -62,7 +62,7 @@ class LSTM_Flare:
             cols = [5, 7] + list(range(9, 13)) + list(range(14, 16)) + [18]
         elif flare_label == 'M':
             cols = list(range(5, 10)) + list(range(13, 16)) + [19, 21] + list(range(23, 26))
-        elif flare_label == 'M':
+        elif flare_label == 'M5':
             cols = list(range(5, 12)) + list(range(19, 21)) + list(range(22, 25))
         for k in cols:
             if float(row[k]) == 0.0:
