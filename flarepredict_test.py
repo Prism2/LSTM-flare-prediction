@@ -6,7 +6,7 @@ import numpy as np
 import csv
 
 
-from flareml_utils import *
+from flarepredict_utils import *
 
 TEST_INPUT = 'data/test_data/flaringar_simple_random_40.csv'
 normalize_data = False
@@ -75,7 +75,7 @@ args, unknown = parser.parse_known_args()
 args = vars(args)
 
 if __name__ == "__main__":
-    from flareml_test import test_model
+    from flarepredict_test import test_model
 
     args = {'test_data_file': 'data/LSTM_C_sample_run/normalized_testing.csv',
             'flare': 'C',

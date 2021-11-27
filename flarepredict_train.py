@@ -4,7 +4,7 @@ from sklearn.utils import class_weight
 from keras.models import *
 import numpy as np
 
-from flareml_utils import *
+from flarepredict_utils import *
 
 
 def train_model(args):
@@ -56,4 +56,8 @@ args, unknown = parser.parse_known_args()
 args = vars(args)
 
 if __name__ == "__main__":
+    args = {'train_data_file': 'data/LSTM_M5_sample_run/normalized_training.csv',
+            'flare': 'M5',
+            'modelid': 'custom_model_id'
+            }
     train_model(args)
