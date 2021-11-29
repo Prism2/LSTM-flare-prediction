@@ -33,7 +33,7 @@ def test_model(args):
                                                     start_feature=start_feature, n_features=n_features,
                                                     mask_value=mask_value)
     print("Done loading data...")
-    print("Formatting and mapping the flares classes..")
+    print("Formatting and mapping the data...")
     X_test = np.array(X_test_data)
     y_test = np.array(y_test_data)
     y_test_tr = lstm_flare.data_transform(y_test)
