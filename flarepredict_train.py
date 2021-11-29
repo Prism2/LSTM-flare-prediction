@@ -15,12 +15,13 @@ def train_model(args):
     n_features = get_n_features(flare_label)
 
     lstm_flare = LSTM_Flare()
-
+    print("Starting training with a model with id:", model_id, 'training data file:', train_data_file)
+    print('Loading data set...')
     X_train_data, y_train_data = lstm_flare.load_data(datafile=train_data_file,
                                                       flare_label=flare_label, series_len=series_len,
                                                       start_feature=start_feature, n_features=n_features,
                                                       mask_value=mask_value)
-
+    print('Done loading data...')
     X_train = np.array(X_train_data)
     y_train = np.array(y_train_data)
     y_train_tr = lstm_flare.data_transform(y_train)
@@ -34,11 +35,13 @@ def train_model(args):
     model.compile(loss='categorical_crossentropy',
                   optimizer='adam',
                   metrics=['accuracy'])
-
+    print('Training is in progress, please wait until it is done...')
     history = model.fit(X_train, y_train_tr,
                         epochs=epochs, batch_size=batch_size,
                         verbose=False, shuffle=True, class_weight=class_weight_)
     model.save(model_dir)
+    print('\nFinished training the', flare_label,
+          'flare model, you may use the flarepredict_test.py program to make prediction.')
 
 
 '''

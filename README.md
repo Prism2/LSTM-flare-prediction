@@ -14,12 +14,12 @@ We present a long short-term memory (LSTM) network for predicting whether an act
 This notebook is Binder enabled and can be run on [mybinder.org](https://mybinder.org/) by using the link below.
 
 
-### run_SolarUnet.ipynb (Jupyter Notebook for SolarUnet)
+### run_FlarePredict.ipynb (Jupyter Notebook for FlarePredict)
 [![Binder](https://mybinder.org/badge_logo.svg)]( https://mybinder.org/v2/gh/Prism2/LSTM-flare-prediction/HEAD?labpath=ccsc_FlarePredict.ipynb)
 
 Please note that starting Binder might take some time to create and start the image.
 
-For the latest updates of SolarUnet refer to [https://github.com/Prism2/LSTM-flare-prediction](https://github.com/Prism2/LSTM-flare-prediction)
+For the latest updates of FlarePredict refer to [https://github.com/Prism2/LSTM-flare-prediction](https://github.com/Prism2/LSTM-flare-prediction)
 
 ## Installation on local machine
 
